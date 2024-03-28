@@ -1,6 +1,6 @@
 import Jumbotron from "../components/Jumbotron"
 import MainPageHeader from "../components/MainPageHeader"
-import Navbar from "../components/navbar"
+import Navbar from "../components/Navbar"
 import styles from "../styles/index.module.css"
 
 export default function MainPage() {

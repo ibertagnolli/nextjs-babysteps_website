@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-import Navbar from "../components/navbar";
+import Navbar from "../components/Navbar";
 import styles from "../styles/index.module.css"; // Import your Navbar component
 
 const TeamMemberPage = () => {
