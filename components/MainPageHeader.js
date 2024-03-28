@@ -1,4 +1,5 @@
 import { useRouter } from "next/router";
+import { basePath } from "../next.config";
 
 const MainPageHeader = () => {
    const router = useRouter();
@@ -7,7 +8,7 @@ const MainPageHeader = () => {
      
        <div style={{flexDirection:"column"}}>
       <img style={{width: "200px",padding:"20px"}} 
-            src={"/images/tracking.png" }
+            src={basePath + "/images/tracking.png" }
             alt = "tracking page of the Babysteps app" />
     </div>
   
