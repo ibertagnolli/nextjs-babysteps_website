@@ -17,7 +17,7 @@ const TeamMemberPage = () => {
                 bgcolor="transparent"
             />
             <div style={{ display: "flex", marginTop: "64px", flexDirection: "column", width: "100%" }}>
-                <div style={{ display: "flex", alignItems: "center", justifyContent: "center", height: "150px" }}><h1 style={{ letterSpacing: "8px", fontSize: "48px" }}>Welcome to BabySteps</h1></div>
+                <div style={{ display: "flex", alignItems: "center", justifyContent: "center", height: "150px" }}><h1 style={{ letterSpacing: "8px", fontSize: "48px" }}>Try BabySteps</h1></div>
                  <div style={{ width: "100%", background: theme.colors.secondary, display: "flex", justifyContent: "center" }}>
                     <div style={{ display: "flex", padding: "12px 32px", gap: "12px", width: "clamp(800px, 100%, 1200px)", alignItems: "center", minHeight: "400px", flexDirection: "row" }}>
                         <div>

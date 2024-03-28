@@ -10,7 +10,7 @@ const TeamMemberHighlight = ({imgSrc, name, children, isAltStyle}) => {
                 <img src={imgSrc} width={300} height={300} style={{borderRadius: "10px", objectFit: "cover"}}/>
             </div>
             <div style={{flexGrow: 1, display: "flex", flexDirection: "column", alignItems: "center", padding: "32px"}}>
-                <h1 style={{textTransform: "uppercase", letterSpacing: "8px"}}>{name}</h1>
+                <h1 style={{textTransform: "uppercase", letterSpacing: "8px", color:theme.colors.tertiary}}>{name}</h1>
                 <div style={{fontSize: "18px"}}>{children}</div>
             </div>
         </div>
