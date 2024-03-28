@@ -8,9 +8,9 @@ const TeamMemberPage = () => {
         <>
             <Navbar
                 links={[
-                    { text: "Home", path: "" },
-                    { text: "Team", path: "team" },
-                    { text: "Tutorial", path: "tutorial" },
+                    { text: "Home", path: "/" },
+                    { text: "Team", path: "/team" },
+                    { text: "Tutorial", path: "/tutorial" },
                 ]}
                 bgcolor="transparent"
             />
