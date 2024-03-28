@@ -1,6 +1,7 @@
 import { useRouter } from "next/router";
 import Navbar from "../components/Navbar";
 import styles from "../styles/index.module.css"; // Import your Navbar component
+import { basePath } from "../next.config";
 
 const TeamMemberPage = () => {
     const router = useRouter();
@@ -8,9 +9,9 @@ const TeamMemberPage = () => {
         <>
             <Navbar
                 links={[
-                    { text: "Home", path: "" },
-                    { text: "Team", path: "team" },
-                    { text: "Tutorial", path: "tutorial" },
+                    { text: "Home", path:basePath + "/" },
+                    { text: "Team", path: "/team" },
+                    { text: "Tutorial", path: "/tutorial" },
                 ]}
                 bgcolor="transparent"
             />

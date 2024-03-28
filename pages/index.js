@@ -7,9 +7,9 @@ export default function MainPage() {
     return (
         <>
             <Navbar links={[
-                {text: "Home", path: ""},
-                {text: "Team", path: "team"},
-                {text: "Tutorial", path: "tutorial"},
+                {text: "Home", path: basePath +  "/"},
+                {text: "Team", path: "/team"},
+                {text: "Tutorial", path: "/tutorial"},
             ]} bgcolor = "transparent"
                 />
                
