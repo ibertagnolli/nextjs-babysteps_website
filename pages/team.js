@@ -9,7 +9,7 @@ const TeamMemberPage = () => {
         <>
             <Navbar
                 links={[
-                    { text: "Home", path: basepath + "/" },
+                    { text: "Home", path: "/" },
                     { text: "Team", path: "/team" },
                     { text: "Tutorial", path: "/tutorial" },
                 ]}

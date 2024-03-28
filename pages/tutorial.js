@@ -1,7 +1,6 @@
 import { useRouter } from "next/router";
 import Navbar from "../components/Navbar";
 import styles from "../styles/index.module.css"; // Import your Navbar component
-import { basePath } from "../next.config";
 
 const TeamMemberPage = () => {
     const router = useRouter();
@@ -9,7 +8,7 @@ const TeamMemberPage = () => {
         <>
             <Navbar
                 links={[
-                    { text: "Home", path:basePath + "/" },
+                    { text: "Home", path: "/" },
                     { text: "Team", path: "/team" },
                     { text: "Tutorial", path: "/tutorial" },
                 ]}
@@ -22,9 +21,9 @@ const TeamMemberPage = () => {
                         <video className={styles.teamImage} src="/images/milestonesfunctionality.mov" alt="tutorial video" />
                     </div>
                     <div style={{ width: "60%" }}>
-                        <h3 style={{ fontSize: 32, color: "#0d4b5f", marginBottom: 10 }}>Tutorial</h3>
+                        <h3 style={{ fontSize: 32, color: "#0d4b5f", marginBottom: 10 }}>Isabella Bertagnolli</h3>
                         <p style={{ fontSize: 24, color: "#000000", marginBottom: 20 }}>
-                           Check out our tutorial video for an overview of the BabySteps app and the features we offer. 
+                           Check out our tutorial video for an overview of the BabySteps app and the features we
                         </p>
                     </div>
                 </div>
