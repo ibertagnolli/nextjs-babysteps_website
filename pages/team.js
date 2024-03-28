@@ -1,6 +1,7 @@
 import { useRouter } from "next/router";
 import Navbar from "../components/Navbar";
 import styles from "../styles/index.module.css"; // Import your Navbar component
+import { basePath } from "../next.config";
 
 const TeamMemberPage = () => {
     const router = useRouter();
@@ -18,7 +19,7 @@ const TeamMemberPage = () => {
                 <h2 style={{ fontSize: 50, color: "#0d4b5f", marginBottom: 10, marginTop: 30 }}>Meet the Team</h2>
                 <div className={styles.horizontal} style={{ width: "100%", display: "flex", alignItems: "center", justifyContent: "center", marginBottom: 20 }}>
                     <div style={{ width: "30%", marginRight: 20 }}>
-                        <img className={styles.teamImage} src="images/resized_bella.jpeg" alt="Team Member Photo" />
+                        <img className={styles.teamImage} src={basePath + "images/resized_bella.jpeg"} alt="Team Member Photo" />
                     </div>
                     <div style={{ width: "60%" }}>
                         <h3 style={{ fontSize: 32, color: "#0d4b5f", marginBottom: 10 }}>Isabella Bertagnolli</h3>
