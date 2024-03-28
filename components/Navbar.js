@@ -22,7 +22,7 @@ export default function Navbar({links}, bgcolor) {
           
              <img 
             style={{width: "50px", position: "absolute", }} 
-            src="/images/Babysteps1024.jpg" 
+            src="images/Babysteps1024.jpg" 
             alt = "capstone team photo" 
      />
 
