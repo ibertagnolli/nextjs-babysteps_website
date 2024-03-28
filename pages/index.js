@@ -2,13 +2,12 @@ import Jumbotron from "../components/Jumbotron"
 import MainPageHeader from "../components/MainPageHeader"
 import Navbar from "../components/Navbar"
 import styles from "../styles/index.module.css"
-import { basePath } from "../next.config";
 
 export default function MainPage() {
     return (
         <>
             <Navbar links={[
-                {text: "Home", path: basePath + "/"},
+                {text: "Home", path: "/"},
                 {text: "Team", path: "/team"},
                 {text: "Tutorial", path: "/tutorial"},
             ]} bgcolor = "transparent"

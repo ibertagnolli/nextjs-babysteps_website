@@ -1,7 +1,6 @@
 import Button from "@mui/material/Button";
 import { useRouter } from "next/router";
 import theme from "../styles/theme";
-import { basePath } from "../next.config";
 
 export default function Navbar({links}, bgcolor) {
     const router = useRouter();
@@ -23,7 +22,7 @@ export default function Navbar({links}, bgcolor) {
           
              <img 
             style={{width: "50px", position: "absolute", }} 
-            src={basePath +"images/Babysteps1024.jpg" }
+            src={"/images/Babysteps1024.jpg" }
             alt = "capstone team photo" 
      />
 
