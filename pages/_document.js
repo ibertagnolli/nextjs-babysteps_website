@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
-      <link rel="shortcut icon" type="image/x-icon" href="/nextjs-babysteps_website/images/favicon.ico?"></link>
+      <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
       <body style={{fontFamily: "Barlow", margin: "0px"}}>
         <Main />
         <NextScript />
