@@ -2,6 +2,7 @@ import Jumbotron from "../components/Jumbotron"
 import MainPageHeader from "../components/MainPageHeader"
 import Navbar from "../components/Navbar"
 import styles from "../styles/index.module.css"
+import theme from "../styles/theme";
 
 export default function MainPage() {
     return (
@@ -20,6 +21,8 @@ export default function MainPage() {
         {/* Content within the darker background */}
         <MainPageHeader /> 
            </div>
+
+     
     </>
       
     )

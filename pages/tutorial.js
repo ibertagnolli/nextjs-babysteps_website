@@ -27,7 +27,7 @@ const TeamMemberPage = () => {
                             {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/7i4mzdLNA3M?si=6FdILv_ggdeNvN6J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> */}
                         </div>
                         <div style={{ flexGrow: 1, display: "flex", flexDirection: "column", alignItems: "center", padding: "32px" }}>
-                            <h1 style={{ textTransform: "uppercase", letterSpacing: "8px" }}>Tutorial</h1>
+                            <h2 style={{ textTransform: "uppercase", letterSpacing: "8px" }}>Tutorial</h2>
                             <div style={{ fontSize: "18px" }}>{
                                 <p>Check out this video to see a walkthrough of our application.</p>
 
@@ -49,6 +49,30 @@ const TeamMemberPage = () => {
                     </div>
                 </div>
             </div>
+               <style jsx>{`
+                @media only screen and (max-width: 768px) {
+                    div:nth-child(2) {
+                        flex-direction: column;
+                   
+                    }
+                    div:nth-child(2) > div:nth-child(1) {
+                        padding-bottom: 0;
+                  
+                    }
+                   
+                    // h2 {
+                    //     order: -1; /* Move the h1 to the top */
+                    //     text-align: center; /* Center the text */
+                    //     margin-bottom: 10px; /* Add some space below the h1 */
+                    // }
+                    div > div:last-child {
+                        order: -2; /* Move the video container above the text container */
+                    }
+                    h1 {
+                        display: none; /* Hide the "Try BabySteps" text on iPhones */
+                    }
+                }
+            `}</style>
         </>
     );
 }
