@@ -20,7 +20,7 @@ const TeamMemberPage = () => {
                     imgSrc="/nextjs-babysteps_website/images/selfPortrait.jpg"
                     name="Isabella Bertagnolli"
                 >
-                    Hi! I am a Senior studying computer science at the University of Utah. I am interested in Machine Learning, Web Development, Mobile Development, and Art. When I'm not coding, you can find me painting, hiking, biking, and climbing in the Salt Lake valley. I am currently a teaching assistant for the Mobile App programming class and have loved working on BabySteps for the past 6 months. You can reach me at irosebertagnolli@gmail.com or learn more at <a href="ibertagnolli.github.io">my website</a>.
+                    Hi! I am a Senior studying computer science at the University of Utah. I am interested in Machine Learning, Web Development, Mobile Development, and Art. When I'm not coding, you can find me painting, hiking, biking, and climbing in the Salt Lake valley. I am currently a teaching assistant for the Mobile App programming class and have loved working on BabySteps for the past 6 months. You can reach me at irosebertagnolli@gmail.com on <a href="https://www.linkedin.com/in/isabella-bertagnolli/">LinkedIn</a> or learn more at <a href="https://ibertagnolli.github.io">my website</a>.
                 </TeamMemberHighlight>
                 <TeamMemberHighlight
                     imgSrc="/nextjs-babysteps_website/images/ta_picture.jpg"
