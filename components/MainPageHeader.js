@@ -16,12 +16,12 @@ const MainPageHeader = () => {
                         </span>
             </div>
 
-            <div style={{ display: "flex", flexDirection: "column", width: "100%" }}>
+            <div style={{ display: "flex", flexDirection: "column", width: "100%"}}>
                 <div style={{ flexDirection: "column" }}>
                     <img style={{ width: "200px", padding: "20px",}}
                         src={"/nextjs-babysteps_website/images/newTracking.png"}
                         alt="tracking page of the Babysteps app" />
-                    <img className="history-image"  style={{ width: "200px", padding: "20px",  }}
+                    <img className="history-image"  style={{ width: "200px", padding: "20px"}}
                         src={"/nextjs-babysteps_website/images/finalHistory.png"}
                         alt="history page of the Babysteps app" />
                 </div>

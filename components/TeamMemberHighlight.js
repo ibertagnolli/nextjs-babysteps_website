@@ -5,7 +5,7 @@ const TeamMemberHighlight = ({imgSrc, name, children, isAltStyle}) => {
     const flexDirection = isAltStyle ? "row-reverse" : "row";
     return (
         <div style={{width: "100%", background: bgColor, display: "flex", justifyContent: "center"}}>
-            <div style={{display: "flex", padding: "12px 32px", gap: "12px", width: "clamp(800px, 100%, 1200px)", alignItems: "center", minHeight: "400px", flexDirection: flexDirection}}>
+            <div class="rowdiv" style={{display: "flex", padding: "12px 32px", gap: "12px", width: "clamp(800px, 100%, 1200px)", alignItems: "center", minHeight: "400px", flexDirection: flexDirection}}>
                 <div>
                     <img src={imgSrc} width={300} height={300} style={{borderRadius: "10px", objectFit: "cover"}}/>
                 </div>
