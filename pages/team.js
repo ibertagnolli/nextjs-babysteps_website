@@ -37,7 +37,7 @@ I am a graduating senior from the University of Utah. I have interests in Full S
                         Hello! I'm graduating from The University of Utah with my Bachelor's Degree in Computer Science. Two of my favorite areas in software development are mobile apps and databases, so working on BabySteps was a lot of fun! I'll start working as a Software Engineer at Google this Fall, and I'm hoping to continue working in these areas. Outside of school and work, I like to pick up new books and skills. This semester was "Mistborn: The Hero of Ages" and swimming, we'll see what I pick up next! You can reach me at emilyabest@outlook.com or <a href="www.linkedin.com/in/emilyabest">LinkedIn</a>. 
                 </TeamMemberHighlight>
                 <TeamMemberHighlight
-                imgSrc=""
+                imgSrc="/nextjs-babysteps_website/images/Lexie_stucki.png"
                 name = "Lexie Stucki"
                 isAltStyle>
                 I am a senior at the University of Utah, graduating in computer science and applied mathematics. I am interested in AI, Machine Learning, and HCI, and will be attending UCSD in Fall 2024 to pursue these interests and earn an MS in CS. I am currently working as a Grader for the math department at the U, and will intern as a Software Engineer for Goldman Sachs this summer. In my limited time off from my academic pursuits, I love to ski, bake, read, and see concerts and movies. You can reach me at lexie.stucki@gmail.com or <a href="www.linkedin.com/in/lexiestucki">Linkedin</a>.
