@@ -22,7 +22,7 @@ const TeamMemberPage = () => {
                     <div style={{ display: "flex", padding: "32px 32px", gap: "12px", width: "clamp(800px, 100%, 1200px)", alignItems: "center", minHeight: "400px", flexDirection: "row" }}>
                         <div style={{ display: "flex", padding: " 46px"}}>
                         {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/pyVTmYe9XMo?si=_JRw0-S9zKDf3QgH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> */}
-                        <iframe width="250" height="550" src="https://www.youtube.com/embed/ejBDHi4SxEs?si=dx865sETc6dehFPa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe width="250" height="550" src="https://www.youtube.com/embed/ejBDHi4SxEs?si=dx865sETc6dehFPa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="True"></iframe>
                         </div>
                         <div style={{ flexGrow: 1, display: "flex", flexDirection: "column", alignItems: "center", padding: "32px" }}>
                             <h2 style={{ textTransform: "uppercase", letterSpacing: "8px" }}>Tutorial</h2>
