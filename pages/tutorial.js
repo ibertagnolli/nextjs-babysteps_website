@@ -21,12 +21,8 @@ const TeamMemberPage = () => {
                 <div style={{ width: "100%", background: theme.colors.secondary, display: "flex", justifyContent: "center" }}>
                     <div style={{ display: "flex", padding: "32px 32px", gap: "12px", width: "clamp(800px, 100%, 1200px)", alignItems: "center", minHeight: "400px", flexDirection: "row" }}>
                         <div style={{ display: "flex", padding: " 46px"}}>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/pyVTmYe9XMo?si=_JRw0-S9zKDf3QgH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                           
-                            {/* <iframe width="300" height="580"
-                                src="https://www.youtube.com/watch?v=pyVTmYe9XMo">
-                            </iframe> */}
-                            {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/7i4mzdLNA3M?si=6FdILv_ggdeNvN6J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> */}
+                        {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/pyVTmYe9XMo?si=_JRw0-S9zKDf3QgH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> */}
+                        <iframe width="250" height="550" src="https://www.youtube.com/embed/ejBDHi4SxEs?si=dx865sETc6dehFPa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         </div>
                         <div style={{ flexGrow: 1, display: "flex", flexDirection: "column", alignItems: "center", padding: "32px" }}>
                             <h2 style={{ textTransform: "uppercase", letterSpacing: "8px" }}>Tutorial</h2>
