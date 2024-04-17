@@ -38,7 +38,8 @@ I am a graduating senior from the University of Utah. I have interests in Full S
                 </TeamMemberHighlight>
                 <TeamMemberHighlight
                 imgSrc=""
-                name = "Lexie Stucki">
+                name = "Lexie Stucki"
+                isAltStyle>
                 I am a senior at the University of Utah, graduating in computer science and applied mathematics. I am interested in AI, Machine Learning, and HCI, and will be attending UCSD in Fall 2024 to pursue these interests and earn an MS in CS. I am currently working as a Grader for the math department at the U, and will intern as a Software Engineer for Goldman Sachs this summer. In my limited time off from my academic pursuits, I love to ski, bake, read, and see concerts and movies. You can reach me at lexie.stucki@gmail.com or <a href="www.linkedin.com/in/lexiestucki">Linkedin</a>.
 
 </TeamMemberHighlight>
